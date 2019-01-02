@@ -1,0 +1,7 @@
+<h2>{{hero.name | uppercase }} Details</h2>
+
+<ul class = "heroes">
+  <li *ngFor = "let hero of heroes">
+    <span class = "badge"> Name: {{ hero.name }}</span> ID: {{ hero.id }}
+    </li>
+</ul>
